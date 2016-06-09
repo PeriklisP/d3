@@ -6,9 +6,9 @@ export default {
   plugins: [node(), ascii()],
   output: {
     extend: true,
-    file: "dist/d3.js",
+    file: "dist/_d3.js",
     format: "umd",
     indent: false,
-    name: "d3"
+    name: "_d3"
   }
 };
